@@ -53,7 +53,7 @@
 .latestPostsGrid {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5em;
+    column-gap: 3.5vw;
     width: 80vw;
     margin: 20vh 0 10vh 10vw;
 }
