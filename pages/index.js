@@ -1,10 +1,16 @@
+// Import Head
+import Head from "next/head";
+
+// Import Necessary Modules
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Head from "next/head";
 import marked from "marked";
+
+// Import Components
 import Header from '../components/Home/Header'
 import Posts from "../components/Home/Posts";
+import AboutSection from "../components/Home/AboutSection";
 
 export default function Home({ posts }) {
   return (
@@ -14,6 +20,7 @@ export default function Home({ posts }) {
       </Head>
       <Header />
       <Posts posts={posts} />
+      <AboutSection />
     </>
   )
 }
