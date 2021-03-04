@@ -1,0 +1,66 @@
+.aboutSection {
+    min-height:47.5vh;
+    width:100vw;
+    background: rgba(75,75,75,0.04);
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.title {
+    color: var(--dark-grey);
+    padding: 7.5vh 10vw;
+    font-size: 2rem;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin-left:10vw;
+}
+
+.aboutSectionContent {
+    width:100%;
+    height:100%;
+}
+
+.aboutSectionParagraph {
+    font-size: 1.25rem;
+    line-height: 2em;
+    color: var(--dark-grey);
+    width:90%;
+}
+
+.link {
+    color: var(--primary-color);
+    text-decoration:none;
+}
+
+.link:hover {
+    text-decoration:underline;
+}
+
+.logoGridContainer {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoCircle {
+    border-radius:50%;
+    height: 200px;
+    width:200px;
+    background: #fff;
+    box-shadow:10px 10px 20px rgba(0,0,0,0.1);
+}
+
+.logo {
+    position: relative;
+    left:47.5%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:50%;
+}
