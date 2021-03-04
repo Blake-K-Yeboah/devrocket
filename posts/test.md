@@ -1,6 +1,6 @@
 ---
-title: Test Post
-description: "This is a test post"
+title: New Post With a Longer Title For Testing
+description: "This is a new post New Post With a Longer Title For Testing New Post With a Longer Title For Testing"
 image: test.jpg
 ---
 
