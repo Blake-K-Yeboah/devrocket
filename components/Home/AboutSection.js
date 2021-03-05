@@ -11,7 +11,7 @@ const AboutSection = () => {
 
                 <article className={styles.aboutSectionContent}>
 
-                    <p className={styles.aboutSectionParagraph}>DevRocket is a blog run by developer <a href="https://www.blakeyeboah.com/" target="_blank" className={styles.link}>Blake Yeboah</a> that has various posts related to web development. The blog was made to spread web development knowledge and help people from various competencies.</p>
+                    <p className={styles.aboutSectionParagraph}>DevRocket is a blog run by developer <a href="https://www.blakeyeboah.com/" target="_blank" className={styles.link}>Blake Yeboah</a> that has various posts related to web development. The blog was made to spread web development knowledge and help people learn and improve their skills.</p>
 
                 </article>
 
