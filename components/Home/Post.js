@@ -7,7 +7,7 @@ const Post = ({ post }) => {
             <img src={`/thumbnails/${post.data.image}`} className={styles.postImg} />
             <h2 className={styles.postTitle}>{post.data.title}</h2>
             <p className={styles.postDesc}>{post.data.description}</p>
-            <Link href={`posts/${post.fileName.replace(".md", "")}`}>
+            <Link href={`post/${post.fileName.replace(".md", "")}`}>
                 <a className={styles.postBtn}>View Post</a>
             </Link>
         </div>
