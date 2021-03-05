@@ -64,6 +64,11 @@
     box-shadow: 10px 10px 20px rgba(136,136,136, .24);
     text-align:center;
     padding-bottom: 6em;
+    transition: transform .4s ease-in-out;
+}
+
+.post:hover {
+    transform:translateY(-20px);
 }
 
 .postImg {
