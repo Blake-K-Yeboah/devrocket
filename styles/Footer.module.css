@@ -1,0 +1,15 @@
+.footer {
+    min-height: 37.5vh;
+    padding: 2em 10vw 0 10vw;
+}
+
+.grid {
+    height: 25vh;
+    border-bottom: 2px solid lightgrey;
+}
+
+.copyrightSection {
+    height: 9vh;
+    display:flex;
+    align-items:center;
+}
