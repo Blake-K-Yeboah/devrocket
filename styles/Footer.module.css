@@ -5,11 +5,100 @@
 
 .grid {
     height: 25vh;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #eee;
+    display:flex;
+    justify-content: space-between;
 }
 
 .copyrightSection {
     height: 9vh;
     display:flex;
     align-items:center;
+}
+
+.levelUpSection {
+    padding: 1em 0;
+}
+
+.levelUpHeading {
+    color: var(--dark-grey);
+    font-size: 1.5rem;
+}
+
+.levelUpText {
+    width: 75%;
+    margin: 1em 0;
+    line-height: 1.5em;
+    color: var(--dark-grey);
+    font-size: 1.1rem;
+}
+
+.inputGroup {
+    display:flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.input {
+    width:75%;
+    border:none;
+    border-radius: 5px 0 0 5px;
+    background: #eee;
+    height:40px;
+    padding-left: 1em;
+    color: var(--dark-grey);
+    outline:none;
+}
+
+.input:focus {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25)
+}
+
+.inputBtn {
+    width: 25%;
+    border:none;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor:pointer;
+    transition: background .3s ease-in-out;
+}
+
+.inputBtn:hover {
+    background: var(--light-primary-color);
+}
+
+.linksSection {
+    display:flex;
+    padding-top: 2em;
+}
+
+.linkListContainer:not(:last-of-type) {
+    margin-right: 4em;
+}
+
+.linkListHeading {
+    color: var(--dark-grey);
+    font-size: 1.3rem;
+    margin-bottom: .5em;
+}
+
+.linkList {
+    list-style:none;
+}
+
+.linkList li {
+    margin: .5em 0;
+}
+
+.linkListLink {
+    color: var(--light-grey);
+    text-decoration:none;
+}
+
+.linkListLink:hover {
+    color: var(--dark-grey);
+    text-decoration:underline;
 }
