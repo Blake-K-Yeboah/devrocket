@@ -11,6 +11,7 @@ import marked from "marked";
 import Header from '../components/Home/Header'
 import Posts from "../components/Home/Posts";
 import AboutSection from "../components/Home/AboutSection";
+import Footer from "../components/layout/Footer";
 
 export default function Home({ posts }) {
   return (
@@ -21,6 +22,7 @@ export default function Home({ posts }) {
       <Header />
       <Posts posts={posts} />
       <AboutSection />
+      <Footer />
     </>
   )
 }
