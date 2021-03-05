@@ -1,7 +1,7 @@
 ---
-title: New Post With a Longer Title For Testing
-description: "This is a new post New Post With a Longer Title For Testing New Post With a Longer Title For Testing"
-image: test.jpg
+title: Getting Started With HTML
+description: "Get started with html and learn all fundamentals to start building your own websites."
+image: new-post.jpg
 ---
 
 This is the new's post content which consists of this paragraph
