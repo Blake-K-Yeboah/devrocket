@@ -18,7 +18,7 @@ const Posts = ({ posts }) => {
 
             <div className={styles.latestPostsGrid}>
 
-                {posts.map(post => {
+                {posts.slice(0, 3).map(post => {
                     return <Post post={post} key={post.fileName} />
                 })}
 
