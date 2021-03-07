@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../../styles/LatestPosts.module.css';
 
-const Post = ({ post }) => {
+export default function Post({ post }) {
     return (
         <div className={styles.post}>
             <img src={`/thumbnails/${post.data.image}`} className={styles.postImg} />
@@ -13,5 +13,3 @@ const Post = ({ post }) => {
         </div>
     )
 }
-
-export default Post;
