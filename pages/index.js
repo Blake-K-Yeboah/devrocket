@@ -9,7 +9,7 @@ import marked from "marked";
 
 // Import Components
 import Header from '../components/Home/Header'
-import Posts from "../components/Home/Posts";
+import LatestPosts from "../components/Home/Posts";
 import AboutSection from "../components/Home/AboutSection";
 import Footer from "../components/layout/Footer";
 
@@ -20,7 +20,7 @@ export default function Home({ posts }) {
           <title>DevRocket - Web Development Blog</title>
       </Head>
       <Header />
-      <Posts posts={posts} />
+      <LatestPosts posts={posts} />
       <AboutSection />
       <Footer />
     </>
