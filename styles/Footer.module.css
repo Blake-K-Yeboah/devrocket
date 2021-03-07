@@ -27,7 +27,7 @@
 
 .levelUpText {
     width: 75%;
-    margin: 1em 0;
+    margin: 1.25em 0;
     line-height: 1.5em;
     color: var(--dark-grey);
     font-size: 1.1rem;
