@@ -9,7 +9,7 @@ import marked from "marked";
 
 // Import Components
 import Header from '../components/Home/Header'
-import LatestPosts from "../components/Home/Posts";
+import Posts from "../components/Home/Posts";
 import AboutSection from "../components/Home/AboutSection";
 import Footer from "../components/layout/Footer";
 
@@ -20,7 +20,7 @@ export default function Home({ posts }) {
           <title>DevRocket - Web Development Blog</title>
       </Head>
       <Header />
-      <LatestPosts posts={posts} />
+      <Posts posts={posts.slice(0, 3)} />
       <AboutSection />
       <Footer />
     </>
@@ -28,7 +28,13 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  const files = fs.readdirSync("posts");
+  const dir = "posts/";
+  const files = fs.readdirSync(dir);
+
+  // Sort Files In Order
+  files.sort((a, b) => {
+      return fs.statSync(dir + b).mtime.getTime() - fs.statSync(dir + a).mtime.getTime();
+  });
 
   const posts = files.map(fileName => {
 
