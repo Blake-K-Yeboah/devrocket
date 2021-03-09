@@ -11,6 +11,7 @@ import marked from "marked";
 import Navbar from '../../components/layout/Navbar';
 import Footer from '../../components/layout/Footer';
 import BackgroundSection from '../../components/Post/BackgroundSection';
+import Post from '../../components/Post/Post';
 
 // Import Styles
 import styles from '../../styles/Post.module.css';
@@ -24,7 +25,7 @@ export default function PostPage({ htmlString, data }) {
             <Navbar page="posts" />
             <BackgroundSection />
             <div className={styles.postContainer}>
-                <div className={styles.placeholder}></div>
+                <Post data={data} htmlString={htmlString} />
                 <div className={styles.placeholder}></div>
             </div>
             <Footer />
