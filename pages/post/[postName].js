@@ -12,6 +12,7 @@ import Navbar from '../../components/layout/Navbar';
 import Footer from '../../components/layout/Footer';
 import BackgroundSection from '../../components/Post/BackgroundSection';
 import Post from '../../components/Post/Post';
+import Author from "../../components/Post/Author";
 
 // Import Styles
 import styles from '../../styles/Post.module.css';
@@ -26,7 +27,7 @@ export default function PostPage({ htmlString, data }) {
             <BackgroundSection />
             <div className={styles.postContainer}>
                 <Post data={data} htmlString={htmlString} />
-                <div className={styles.placeholder}></div>
+                <Author data={data} />
             </div>
             <Footer />
         </>
@@ -35,13 +36,12 @@ export default function PostPage({ htmlString, data }) {
 
 export const getStaticPaths = async () => {
     const files = fs.readdirSync("posts");
-    console.log("files: ", files);
+
     const paths = files.map(filename => ({
       params: {
         postName: filename.replace(".md", "")
       }
     }));
-    console.log("paths: ", paths);
   
     return {
       paths,
