@@ -14,19 +14,12 @@
     gap: 3em;
 }
 
-.placeholder {
+.post {
     width:100%;
     height:100%;
     background: #fff;
     box-shadow: 10px 10px 20px rgba(136,136,136, .15);
     margin-top: -5vh;
     border-radius: 20px;
-}
-
-.placeholder:first-of-type {
     min-height: 75vh;
-}
-
-.placeholder:last-of-type {
-    max-height: 50vh;
 }
