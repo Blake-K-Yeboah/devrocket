@@ -5,6 +5,7 @@ image: new-post.jpg
 author: Blake Yeboah
 authorImg: blake.png
 authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+tags: HTML CSS React Beginner
 ---
 
 This is the new's post content which consists of this paragraph
