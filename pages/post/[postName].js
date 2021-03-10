@@ -23,7 +23,7 @@ export default function PostPage({ htmlString, data }) {
             <Head>
                 <title>{data.title}</title>
             </Head>
-            <Navbar page="posts" />
+            <Navbar page="nope" />
             <BackgroundSection />
             <div className={styles.postContainer}>
                 <Post data={data} htmlString={htmlString} />
