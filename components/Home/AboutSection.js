@@ -3,7 +3,7 @@ import styles from '../../styles/AboutSection.module.css'
 const AboutSection = () => {
 
     return (
-        <section className={styles.aboutSection}>
+        <section className={styles.aboutSection} id="about">
 
             <h1 className={styles.title}>What is <span className={styles.primary}>Dev</span> Rocket?</h1>
 
