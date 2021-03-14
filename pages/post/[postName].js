@@ -6,6 +6,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import marked from "marked";
+import hljs from 'highlight.js/lib/core';
 
 // Import Components
 import Navbar from '../../components/layout/Navbar';
@@ -16,8 +17,12 @@ import Author from "../../components/Post/Author";
 
 // Import Styles
 import styles from '../../styles/Post.module.css';
+import 'highlight.js/styles/github.css';
 
-export default function PostPage({ htmlString, data }) {
+export default function PostPage({ content, data }) {
+
+  const htmlString = marked(content , { langPrefix: "hljs language-", highlight: function(code) { return hljs.highlightAuto(code, ["html", "javascript"]).value; }});
+
     return (
         <>
             <Head>
@@ -56,13 +61,11 @@ export const getStaticProps = async ({ params: { postName } }) => {
   
     const parsedMarkdown = matter(markdownWithMetadata);
   
-    const htmlString = marked(parsedMarkdown.content);
-  
     return {
       props: {
-        htmlString,
+        content: parsedMarkdown.content,
         data: parsedMarkdown.data
       }
     };
-  };
+};
   
