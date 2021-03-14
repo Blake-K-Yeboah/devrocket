@@ -63,8 +63,10 @@ As long as your not using internet explorer, you will likely be fine and not run
 
 <br>
 
-Create a new folder on your desktop or wherever you want to store your website files; call it `first-website` or anything you want. Inside of that folder, create a file called `index.html` and open it in your desired text editor.
+Create a new folder on your desktop or wherever you want to store your website files; call it _first-website_ or anything you want. Inside of that folder, create a file called _index.html_ and open it in your desired text editor.
 
 <br>
 
 <blockquote>Tip: You may need to make file extensions visible in your operating system to make sure its a '.html' file.</blockquote>
+
+<br><br>
