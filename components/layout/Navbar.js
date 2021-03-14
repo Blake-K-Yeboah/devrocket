@@ -40,7 +40,7 @@ const Navbar = ({ page }) => {
 
                 <li className={styles.navListItem}>
 
-                    <Link href="/about">
+                    <Link href="/#about">
                         <a className={page === "about" ? styles.navListLinkActive : styles.navListLink}>
                             About
                         </a>
