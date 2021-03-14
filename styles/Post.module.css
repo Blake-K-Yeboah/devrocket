@@ -94,8 +94,8 @@
 }
 
 .postContent code {
-    background: #f1f1f1;
-    padding: 2px 5px;
+    border-radius: 10px;
+    border: 1px solid #EEE;
 }
 
 .postContent blockquote {
