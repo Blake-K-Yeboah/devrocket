@@ -15,4 +15,4 @@ writtenDate: 15/03/21
 
 <br>
 
-Sass is a CSS pre-processor that allows us to use various programming features like variables, loops and conditional statements in our CSS and then compile it to regular CSS. Sass is written in .sass files as well as .scss files depending on the syntax used (refer to Sass Syntax section). The browser can't read sass so Sass must be compiled to regular CSS in order to be read by the browser. There are numerous ways to compile Sass discussed in the Compiling Sass section towards the end of this article.
+Sass is a CSS pre-processor that allows us to use various programming features like variables, loops and conditional statements in our CSS and then compile it to regular CSS. Sass is written in .sass files as well as .scss files depending on the syntax used (refer to Sass Syntax section). The browser can't read Sass so Sass must be compiled to regular CSS in order to be read by the browser. There are numerous ways to compile Sass discussed in the Compiling Sass section towards the end of this article.

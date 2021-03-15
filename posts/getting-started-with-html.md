@@ -69,4 +69,68 @@ Create a new folder on your desktop or wherever you want to store your website f
 
 <blockquote>Tip: You may need to make file extensions visible in your operating system to make sure its a '.html' file.</blockquote>
 
-<br><br>
+<br>
+
+## Understanding HTML Elements
+
+<br>
+
+Inside of a HTML document, there are various elements. For example, there might be a paragraph element which would show a paragraph on screen. The following code is an example of a paragraph element. We will be dissecting it to understand what each individual part means.
+
+<br>
+
+```html
+ <p class="text">Here is my paragraph</p>
+```
+
+<br>
+
+The 'p' is referred to as the tag. It defines what the element is which in this case is a paragraph. Content is placed between the opening tag (the first one) and the closing tag `</p>` . In this case, the content is 'Here is my paragraph'. There are a very large amount of elements in HTML; common ones are discussed in sections below the HTML Document Structure section. The `class="text"` part is what is called an attribute. Attributes provide special functionality to elements and in some cases modify default functionality. We won't cover many attributes in this article however in a google search you can discover many new and exciting attributes with cool functionality.
+
+<br>
+
+## HTML Document Structure
+
+<br>
+
+The basic structure of a html document is fairly simple. The first line is a 'doctype' declaration which declares the version of HTML the web page uses. After this declaration, there is a html element represented by the `<html>` tag that encompasses the body element as well as the head element.
+
+<br>
+
+### The Head Element
+
+<br>
+
+The head element usually holds metadata that the browser and search engines use. It is defined by the `<head>` tag. It is placed in the HTML element and before the `<body>` tag.
+
+<br>
+
+### The Body Element
+
+<br>
+
+The body element holds the actual content displayed on the website. It is defined by the `<body>` tag and is placed after the head tag.
+
+<br>
+
+The basic HTML document structure looks like this:
+
+<br>
+
+```html
+ <!DOCTYPE html>
+ <html>
+   <head>
+    <!-- Browser related info not shown to user -->
+   </head>
+   <body>
+    <!-- Content of Website -->
+   </body>
+ </html>
+```
+
+<br>
+
+<blockquote>
+    Note: The  '&lt;!-- --&gt;'  is used to write comments in HTML.
+</blockquote>
