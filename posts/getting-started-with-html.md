@@ -1,7 +1,7 @@
 ---
 title: Getting Started With HTML
 description: "Get started with html and learn the fundamentals to start building your own websites."
-image: new-post.jpg
+image: getting-started-with-html.jpg
 author: Blake Yeboah
 authorImg: blake.png
 authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
