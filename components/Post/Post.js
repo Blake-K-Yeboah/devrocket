@@ -1,4 +1,8 @@
+// Import Styling
 import styles from '../../styles/Post.module.css';
+
+// Import Link
+import Link from 'Next/Link';
 
 const Post = ({ data, htmlString }) => {
     return (
@@ -17,6 +21,14 @@ const Post = ({ data, htmlString }) => {
             </p>
 
             <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: htmlString }} />
+
+            <div className={styles.morePostsContainer}>
+                <Link href="/posts">
+                    <a className={styles.morePostsLink}>
+                        View More Posts
+                    </a>
+                </Link>
+            </div>
             
         </div>
     )
