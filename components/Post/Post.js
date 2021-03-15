@@ -1,8 +1,8 @@
 // Import Styling
 import styles from '../../styles/Post.module.css';
 
-// Import Link
-import Link from 'Next/Link';
+// Import Link From Next
+import Link from 'next/link';
 
 const Post = ({ data, htmlString }) => {
     return (
