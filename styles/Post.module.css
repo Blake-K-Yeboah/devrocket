@@ -87,6 +87,7 @@
 
 .postContent img {
     margin: 1em 0;
+    width:50%;
 }
 
 .postContent h2 {
@@ -98,9 +99,31 @@
     border: 1px solid #EEE;
 }
 
+.postContent p code {
+    background: #eee;
+    border:0;
+    border-radius: 2px;
+    padding: 3px 4px;
+}
+
 .postContent blockquote {
     border-left: 3px solid var(--light-grey);
     font-family: serif;
     padding-left:20px;
     color: var(--light-grey);
+}
+
+.morePostsContainer {
+    margin-top: 2em;
+}
+
+.morePostsLink {
+    color: var(--primary-color);
+    text-decoration:none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.morePostsLink:hover {
+    text-decoration:underline;
 }
