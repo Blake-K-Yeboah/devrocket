@@ -17,7 +17,7 @@ import Author from "../../components/Post/Author";
 
 // Import Styles
 import styles from '../../styles/Post.module.css';
-import 'highlight.js/styles/atom-one-dark.css';
+import 'highlight.js/styles/night-owl.css';
 
 export default function PostPage({ content, data }) {
   
