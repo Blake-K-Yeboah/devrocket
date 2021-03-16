@@ -35,19 +35,19 @@ const Footer = () => {
                         <ul className={styles.linkList}>
 
                             <li>
-                                <Link href="/">
-                                    <a className={styles.linkListLink}>Front End</a>
+                                <Link href="/posts/Beginner">
+                                    <a className={styles.linkListLink}>Beginner</a>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link href="/">
-                                    <a className={styles.linkListLink}>Back End</a>
+                                <Link href="/posts/HTML">
+                                    <a className={styles.linkListLink}>HTML</a>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link href="/">
+                                <Link href="/posts/React">
                                     <a className={styles.linkListLink}>React</a>
                                 </Link>
                             </li>
