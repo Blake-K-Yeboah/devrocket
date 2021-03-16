@@ -27,6 +27,7 @@ export default function PostPage({ content, data }) {
         <>
             <Head>
                 <title>{data.title}</title>
+                <meta name="description" content={data.description} />
             </Head>
             <Navbar page="nope" />
             <BackgroundSection />
