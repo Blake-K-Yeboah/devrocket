@@ -125,3 +125,21 @@
     font-size: 1.1rem;
     text-decoration: none;
 }
+
+.tagList {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.tag {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px;
+    margin-right: 1em;
+    border-radius:5px;
+}
+
+.tag:last-of-type {
+    margin-right:0;
+}

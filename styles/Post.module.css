@@ -81,11 +81,11 @@
     font-weight: 300;
 }
 
-.postContent ul {
+.postContent ul, .postContent ol {
     margin-left: 1em;
 }
 
-.postContent img {
+.postContent img:first-of-type {
     margin: 1em 0;
     width:50%;
 }
