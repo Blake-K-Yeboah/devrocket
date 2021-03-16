@@ -5,7 +5,7 @@ image: javascript-high-order-array-methods.jpg
 author: Blake Yeboah
 authorImg: blake.png
 authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
-tags: JavaScript Intermediate Useful
+tags: JavaScript Intermediate
 writtenDate: 15/03/21
 ---
 
