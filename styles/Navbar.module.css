@@ -18,8 +18,9 @@
     font-weight: 600;
     font-size: 2rem;
     color: var(--dark-grey);
+    text-decoration:none;
 }
-  
+
 .brandImg {
     width: 50px;
     margin-right: 1em;
