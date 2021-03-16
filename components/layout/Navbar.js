@@ -8,13 +8,17 @@ const Navbar = ({ page }) => {
     return (
         <nav className={styles.navbar}>
 
-            <h2 className={styles.brand}>
+            <Link href="/">
 
-                <img src="/Logo.png" alt="Dev Rocket Logo" className={styles.brandImg} />
+                <a className={styles.brand}>
 
-                DevRocket <span className={styles.thin}>Blog</span>
-            
-            </h2>
+                    <img src="/Logo.png" alt="Dev Rocket Logo" className={styles.brandImg} />
+
+                    DevRocket <span className={styles.thin}>Blog</span>
+                
+                </a>
+                
+            </Link>
 
             <ul className={styles.navList}>
 
