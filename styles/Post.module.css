@@ -90,6 +90,11 @@
     width:50%;
 }
 
+.postContent img {
+    max-width:100%;
+    border-radius: 10px;
+}
+
 .postContent h2 {
     margin-top: 1em;
 }
@@ -111,6 +116,10 @@
     font-family: serif;
     padding-left:20px;
     color: var(--light-grey);
+}
+
+.postContent a {
+    color: var(--primary-color);
 }
 
 .morePostsContainer {
