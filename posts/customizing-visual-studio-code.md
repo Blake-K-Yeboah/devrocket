@@ -88,3 +88,113 @@ I currently use a theme called Aurora X and I find it clean, nice and great to u
 <br>
 
 <img src="/post-images/night-owl-theme.png" alt="Night Owl Theme Screenshot" >
+
+<br><br>
+
+## Installing Extensions
+
+<br>
+
+Installing extensions will significantly boost your productivity as a developer and allow you to do code much easier. So how do you install an extension?
+
+<br>
+
+1. First, open the extensions tag by clicking on the extensions icon in the sidebar. This will open up a tab that looks like this:
+
+<br>
+
+<img src="/post-images/extensions.jpg" alt="Extensions VSCode" >
+
+<br><br>
+
+2. You can then click on the search bar in the top left of the screen and search for an extension. This will then bring up the extension's page.  For example, the CSS Peek extension page looks like this:
+
+<br>
+
+<img src="/post-images/css-peek-extension-page.jpg" alt="CSS Peek Extension Page" >
+
+<br><br>
+
+<blockquote>
+    Note: On my screenshot it shows uninstall since I already have the extension however yours will just say 'Install'.
+</blockquote>
+
+<br>
+
+3. Finally, click the install button and the extension will be installed.
+
+<br>
+
+### Some Popular Extensions
+
+<br>
+
+Here is a list of a few popular extensions I couldn't live without:
+
+<br>
+
+**Live Sass Compiler**
+
+<br>
+
+This extension watches sass files and automatically compiles them to regular css. It is extremely handy when using Sass which i commonly use.
+
+<br>
+
+[View Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+
+<br>
+
+**Live Server**
+
+<br>
+
+Live server allows you to run a live server by simply pressing on 'Go Live'. This server auto updates when a file is changed which is very useful when building simple html and css applications.
+
+<br>
+
+[View Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+<br>
+
+**ES7 React/Redux/GraphQL/React-Native snippets**
+
+<br>
+
+This extension gives you a set of snippets of React, Redux, GraphQl, and React Native. These snippets are very useful and can significantly boost your productivity since you will write less boilerplate.
+
+<br>
+
+[View Extension](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
+<br>
+
+**Bracket Pair Colorizer**
+
+<br>
+
+This extension colors brackets that open/close each other the same color which means you can more easily interpret your code.
+
+<br>
+
+[View Extension](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+
+<br>
+
+**Auto Rename Tag**
+
+<br>
+
+This extension automatically renames tags when one of them is changed which is incredibly useful when coding HTML and manipulating elements.
+
+<br>
+
+[View Extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+<br>
+
+## Take Away
+
+<br>
+
+Hopefully, you have learned how to successfully customize Visual Studio Code by changing your color theme and installing extensions. This knowledge should help increase your productivity as a developer. As always, thanks for reading and keep on coding!
