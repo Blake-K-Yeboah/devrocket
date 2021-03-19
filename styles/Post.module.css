@@ -85,6 +85,10 @@
     margin-left: 1em;
 }
 
+.postContent ul {
+    list-style-type: circle;
+}
+
 .postContent img:first-of-type {
     margin: 1em 0;
     width:50%;
