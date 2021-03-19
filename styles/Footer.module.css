@@ -14,6 +14,7 @@
     height: 9vh;
     display:flex;
     align-items:center;
+    justify-content: space-between;
 }
 
 .levelUpSection {
@@ -101,4 +102,13 @@
 .linkListLink:hover {
     color: var(--dark-grey);
     text-decoration:underline;
+}
+
+.darkLink {
+    color: var(--dark-grey);
+    text-decoration: none;
+}
+
+.darkLink:hover {
+    text-decoration: underline;
 }
