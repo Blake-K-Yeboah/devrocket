@@ -5,7 +5,7 @@ image: getting-started-with-html.jpg
 author: Blake Yeboah
 authorImg: blake.png
 authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
-tags: HTML CSS Beginner
+tags: HTML Beginner
 writtenDate: 09/03/21
 ---
 
