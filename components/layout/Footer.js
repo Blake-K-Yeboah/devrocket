@@ -30,34 +30,6 @@ const Footer = () => {
 
                     <div className={styles.linkListContainer}>
 
-                        <h4 className={styles.linkListHeading}>Categories</h4>
-
-                        <ul className={styles.linkList}>
-
-                            <li>
-                                <Link href="/posts/Beginner">
-                                    <a className={styles.linkListLink}>Beginner</a>
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link href="/posts/HTML">
-                                    <a className={styles.linkListLink}>HTML</a>
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link href="/posts/React">
-                                    <a className={styles.linkListLink}>React</a>
-                                </Link>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <div className={styles.linkListContainer}>
-
                         <h4 className={styles.linkListHeading}>Navigation</h4>
 
                         <ul className={styles.linkList}>
@@ -91,6 +63,10 @@ const Footer = () => {
             <div className={styles.copyrightSection}>
 
                 <p className={styles.copyright}>&copy; Copyright 2021 DevRocket. All Rights Reserved</p>
+
+                <Link href="/affiliate-disclosure">
+                    <a className={styles.darkLink}>Affialiate Disclosure</a>
+                </Link>
 
             </div>
 
