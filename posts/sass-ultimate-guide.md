@@ -204,3 +204,16 @@ And then when including the mixin, you simply pass in the argument.
 
 <br>
 
+You can include as many arguments as you need and you can also set default values for arguments if they are passed in. To set default values, simple add `= value` to the end of the argument when defining the mixin.
+
+<br>
+
+<blockquote>
+    Hint: Make sure to change value to whatever value you want.
+</blockquote>
+
+<br>
+
+### Nesting
+
+<br>
