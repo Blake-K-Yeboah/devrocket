@@ -19,6 +19,14 @@ Sass is a CSS pre-processor that allows us to use various programming features l
 
 <br>
 
+## Your First Sass File
+
+<br>
+
+To get started with using sass, create a new file. You can call it whatever you want but make sure the file extension is either `.sass` or `.scss` depending on what type of syntax you wish to use (discussed below).
+
+<br>
+
 ## Sass Syntax
 
 <br>
