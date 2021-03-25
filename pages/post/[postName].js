@@ -26,7 +26,7 @@ export default function PostPage({ content, data }) {
     return (
         <>
             <Head>
-                <title>{data.title}</title>
+                <title>{data.title} - Dev Rocket</title>
                 <meta name="description" content={data.description} />
             </Head>
             <Navbar page="nope" />
