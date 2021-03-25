@@ -21,7 +21,7 @@ import 'highlight.js/styles/night-owl.css';
 
 export default function PostPage({ content, data }) {
   
-  const htmlString = marked(content , { langPrefix: "hljs language-", highlight: function(code) { return hljs.highlightAuto(code, ["html", "javascript", "scss"]).value; }});
+  const htmlString = marked(content , { langPrefix: "hljs language-", highlight: function(code) { return hljs.highlightAuto(code, ["html", "javascript", "scss", "css"]).value; }});
 
     return (
         <>
