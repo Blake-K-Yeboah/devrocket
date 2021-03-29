@@ -108,7 +108,7 @@
     border: 1px solid #EEE;
 }
 
-.postContent p code {
+.postContent p code, .postContent li code {
     background: #eee;
     border:0;
     border-radius: 2px;
