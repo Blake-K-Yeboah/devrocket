@@ -217,3 +217,100 @@ You can include as many arguments as you need and you can also set default value
 ### Nesting
 
 <br>
+
+Sass allows you to nest css selectors in a way that gives your styling visual hierachy similr to HTML. This has the added benefit of organizing your CSS and making it more readable. For instance, the following code is simple styling of a navigation bar in CSS.
+
+<br>
+
+```css
+ nav {
+     height:40px;
+     width:100vw;
+     background:#f1f1f1;
+ }
+
+ nav ul {
+     display:flex;
+     list-style:none;
+     margin-left: 10vw;
+ }
+
+ nav li {
+     margin: 0 10px;
+ }
+
+ nav a {
+     color: darkgrey;
+     text-decoration:none;
+ }
+```
+
+<br>
+
+In SCSS, this can be written as the code below.
+
+<br>
+
+```scss
+ nav {
+     height:40px;
+     width:100vw;
+     background:#f1f1f1;
+
+    ul {
+        display:flex;
+        list-style:none;
+        margin-left: 10vw;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+    a {
+        color: darkgrey;
+        text-decoration:none;
+    }
+
+ }
+```
+
+<br>
+
+You could even nest elements like the list item further however be careful how nested elements are. Overly nested rules result in over-qualified CSS that is harder to maintain and is considered by many as a bad practice.
+
+<br>
+
+## Compiling
+
+<br>
+
+Now that we have discussed various features of Sass, we can now talk about how to compile sass so it can be read by the browser. The reason why it needs to be compiled is because browsers can only read regular CSS and not sass.
+
+<br>
+
+### Text Editor Extensions
+
+<br>
+
+The easiest way to compile your sass is by using an extension for your text editor. Visual Studio Code has an extension called Live Sass Compiler that allows you to compile sass automatically and easily. You can download the extension from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass).
+
+<br>
+
+To actually compile sass with the extension installed, click the `Watch Sass` button in the bottom right of your screen. This will then watch sass files openned in your text editor so that when one is saved, it automatically compiles it into a regular css file of the same name.
+
+<br>
+
+There are also other ways to compile sass. For instance, NPM packages such as [node-sass](https://www.npmjs.com/package/node-sass) can be used however the text editor extension is usually the easier option. If you are using a library such as React or a framework like Vue.js, using the NPM package would be the more logical choice since these frameworks have built in support for them.
+
+<br>
+
+## What Have You Learned
+
+<br>
+
+Today, you've learned the most useful features of sass, how to compile it and whats the point of using it in the first place. I hope you beign using Sass in your projects and are pleased with the result.
+
+<br>
+
+As always, thanks for reading and keep on coding!
