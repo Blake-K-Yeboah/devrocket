@@ -134,3 +134,34 @@ The basic HTML document structure looks like this:
 <blockquote>
     Note: The  '&lt;!-- --&gt;'  is used to write comments in HTML.
 </blockquote>
+
+<br>
+
+## Common HTML Elements
+
+<br>
+
+With the basic document structure out of the way, we can discuss common elements used in websites.
+
+<br>
+
+### Common Elements in the Head Tag
+
+<br>
+
+The title element is an element found is every website. It is defined by the `<title>` tag. The title of a page is shown in search engines as well as the tab at the top of the browser.
+
+<br>
+
+Another tag used in every website is the meta tag. It provides meta data of various sorts based on its attributes. Two common example are:
+
+<br>
+
+- `<meta charset="UTF-8">` Specifies the character encoding for the HTML document
+- `<meta name="viewport" content="width=device-width,initial-scale=1.0">` Specifies the viewport; used for making website responsive
+
+<br>
+
+<blockquote>
+ Note: The Meta tag doesn't have a closing tag; it is referred to as a self-closing tag.
+</blockquote>
