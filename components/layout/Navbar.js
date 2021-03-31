@@ -4,9 +4,24 @@ import styles from '../../styles/Navbar.module.css';
 // Import Link From Next
 import Link from 'next/link';
 
+// Import Hooks
+import { useEffect } from 'react';
+
 const Navbar = ({ page }) => {
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            document.querySelector("#navbar").classList.add('navbarScrolled');
+        } else {
+            document.querySelector("#navbar").classList.remove('navbarScrolled');
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <nav className={styles.navbar}>
+        <nav className="navbar" id="navbar">
 
             <Link href="/">
 
