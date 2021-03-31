@@ -149,7 +149,13 @@ With the basic document structure out of the way, we can discuss common elements
 
 <br>
 
-The title element is an element found is every website. It is defined by the `<title>` tag. The title of a page is shown in search engines as well as the tab at the top of the browser.
+The title element is an element found is every website. It is defined by the `<title>` tag. The title of a page is shown in search engines as well as the tab at the top of the browser. To add a title, place the following tag inside the head element of your document.
+
+<br>
+
+```html
+ <title>Your Title Goes Here</title>
+```
 
 <br>
 
@@ -165,3 +171,71 @@ Another tag used in every website is the meta tag. It provides meta data of vari
 <blockquote>
  Note: The Meta tag doesn't have a closing tag; it is referred to as a self-closing tag.
 </blockquote>
+
+<br>
+
+Some other examples of elements in the head tag are the `<link>` and `<style>`. The link tag has many uses including adding a favicon, connecting to stylesheets and more. A favicon is the little icon in the tab section of the browser (beside the title). Stylesheets are written in CSS and are used to style the content of the website. This article does not cover CSS however, we have a getting started with CSS article that will teach you everything you need to know. The `<style>` tag is used to write CSS in the HTML document itself. Don't worry about these tags for now, you will become familiar with them when you learn CSS.
+
+<br>
+
+### Common Elements in the Body Tag
+
+<br>
+
+#### Paragraphs
+
+<br>
+
+.
+
+<br>
+
+#### Hyperlinks
+
+<br>
+
+.
+
+<br>
+
+#### Lists
+
+<br>
+
+.
+
+<br>
+
+#### Images
+
+<br>
+
+.
+
+<br>
+
+#### Headings
+
+<br>
+
+.
+
+<br>
+
+#### Forms
+
+<br>
+
+.
+
+<br>
+
+#### Tables
+
+<br>
+
+.
+
+<br>
+
+## Where to From Here?
