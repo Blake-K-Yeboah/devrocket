@@ -164,7 +164,7 @@ Another tag used in every website is the meta tag. It provides meta data of vari
 <br>
 
 - `<meta charset="UTF-8">` Specifies the character encoding for the HTML document
-- `<meta name="viewport" content="width=device-width,initial-scale=1.0">` Specifies the viewport; used for making website responsive
+- `<meta name="viewport" content="width=device-width,initial-scale=1.0">` Specifies the viewport; used for making a website responsive
 
 <br>
 
@@ -182,11 +182,28 @@ Some other examples of elements in the head tag are the `<link>` and `<style>`. 
 
 <br>
 
+Elements placed in the body tags are usually content that is shown to the user. Below are examples of the most commonly used tags. These include paragraphs, hyperlinks, lists, images, headings and forms. There are more elements out there however these main elements will go a long way.
+
+<br>
+
 #### Paragraphs
 
 <br>
 
-.
+The tag that represents paragraphs in HTML is the `<p>` tag. You simply place whatever text you wish to put on your website between the opening tag (`<p>`) and the closing tag (`</p>`). For example, the code below would be used to display a paragraph with dummy text (Lorem Ipsum).
+
+<br>
+
+```html
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+ Cras lobortis magna eu vehicula pellentesque.</P>
+```
+
+<br>
+
+<blockquote>
+ Note: Lorem Ipsum is simply dummy text. You can learn more about it <a href="https://www.lipsum.com/">here</a>
+</blockquote>
 
 <br>
 
@@ -194,7 +211,19 @@ Some other examples of elements in the head tag are the `<link>` and `<style>`. 
 
 <br>
 
-.
+To add a hyperlink to your website, you can use the `<a>` tag. In between the opening and closing tags, you can place whatever text you wish to display to your user. The address that the link redirects to is stored in the `href` attribute. For instance, the code below will display a link saying Google that links to google.com.
+
+<br>
+
+```html
+ <a href="https://www.google.com/">Google</a>
+```
+
+<br>
+
+<blockquote>
+ Tip: If you want the link to open in a completely new window, you can add the <code>target="_blank"</code> attribute to the a tag.
+</blockquote>
 
 <br>
 
@@ -202,7 +231,31 @@ Some other examples of elements in the head tag are the `<link>` and `<style>`. 
 
 <br>
 
-.
+There are two kinds of lists you can add to your website. These include unordered lists (the `<ul>` tag) and ordered lists (the `<ol>` tag). The difference is that the ordered list is used for lists in a specific order and have numbers starting from 1 displayed before each item. The unordered list, as the name suggests, is used for lists without an order. The code blocks below are used to display an unordered and ordered list respectively.
+
+<br>
+
+```html
+ <ul>
+  <li>Unordered List Item 1</li>
+  <li>Unordered List Item 2</li>
+  <li>Unordered List Item 3</li>
+ </ul>
+```
+
+<br>
+
+```html
+ <ol>
+  <li>Ordered List Item 1</li>
+  <li>Ordered List Item 2</li>
+  <li>Ordered List Item 3</li>
+ </ol>
+```
+
+<br>
+
+The `<li>` tag is used for each list item in the list. It can be used in both unordered and ordered lists.
 
 <br>
 
@@ -223,14 +276,6 @@ Some other examples of elements in the head tag are the `<link>` and `<style>`. 
 <br>
 
 #### Forms
-
-<br>
-
-.
-
-<br>
-
-#### Tables
 
 <br>
 
