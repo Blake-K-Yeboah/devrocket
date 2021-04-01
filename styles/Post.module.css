@@ -117,6 +117,11 @@
     padding: 3px 4px;
 }
 
+.postContent h3 code {
+    font-family: 'Montserrat', sans-serif;
+    border:none;
+}
+
 .postContent blockquote {
     border-left: 3px solid var(--light-grey);
     font-family: serif;
