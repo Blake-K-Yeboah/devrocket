@@ -137,6 +137,20 @@ The basic HTML document structure looks like this:
 
 <br>
 
+## Viewing Your HTML File
+
+<br>
+
+To view your file, open it in your desired web browser. To do this, just right click on the file and select open with, then select whatever web browser you wish to use.
+
+<br>
+
+<blockquote>
+ Tip: Remember to save the file and refresh your browser every time you make a change in order to see it.
+</blockquote>
+
+<br>
+
 ## Common HTML Elements
 
 <br>
@@ -263,7 +277,19 @@ The `<li>` tag is used for each list item in the list. It can be used in both un
 
 <br>
 
-.
+The `<img>` tag is used to put images on web pages. Firstly, to specify the exact image you wish to display, the `src` attribute is used. This is set to the path to your image file. The src attribute can also be a web address of an image. After adding a source to your image, you should also add an `alt` attribute. The text in the `alt` attribute is displayed to the user if the image can't be found. Additionally, if a user is using a screen reader, it will read out the alt attribute so it is a good practice to improve the accessibility of your website. The code below would be used to display an image called `car.jpg` that is in a folder called `images`.
+
+<br>
+
+```html
+ <img src="images/car.jpg" alt="Car" >
+```
+
+<br>
+
+<blockquote>
+ Note: The <code>img</code> tag is a self closing tag which means its doesn't have a closing tag.
+</blockquote>
 
 <br>
 
@@ -271,16 +297,35 @@ The `<li>` tag is used for each list item in the list. It can be used in both un
 
 <br>
 
-.
+There are 6 tags used to display headings that range in size. These include:
 
 <br>
 
-#### Forms
+- `<h1></h1>` - The largest heading
+- `<h2></h2>`
+- `<h3></h3>`
+- `<h4></h4>`
+- `<h5></h5>`
+- `<h6></h6>` - The smallest heading
 
 <br>
 
-.
+To provide an example, the code below displays a heading 1 (`<h1>`) with the text 'Large Heading'.
+
+<br>
+
+```html
+ <h1>Large Heading</h1>
+```
 
 <br>
 
 ## Where to From Here?
+
+<br>
+
+Now its your turn. Experiment with these various elements and see what cool websites you can build. You can also look into other elements not covered in this article such as forms and tables. If you feel comfortable with HTML, you should being learning CSS so you can style the HTML content. Feel free to checkout our getting started with CSS article that covers all the basics for you.
+
+<br>
+
+Thanks for reading and keep on coding!
