@@ -29,7 +29,7 @@ When building front end websites with HTMl, you will often find yourself using d
 - `<section>`
 - `<nav>`
 - `<footer>`
-- `<main>`
+- `<aside>`
 - `<header>`
 
 <br>
@@ -52,13 +52,23 @@ The `<article>` element specifies independent, self-contained content. An articl
 
 <br>
 
-.
+As the name suggests, the `<section>` element defines a section in a document. There are many possible sections on web pages. For instance, contact information could be put into its own section. As an example, the following code could be used to display a section of a document.
 
 <br>
 
 ```html
-
+ <section>
+  <h1>Contact Us</h1>
+  <p>Phone: 0000-000-000</p>
+  <p>Email: hello@ourcompany.com</p>
+ </section>
 ```
+
+<br>
+
+<blockquote>
+ Note: Sections and articles are very similar and you can nest articles in sections and vice-versa.
+</blockquote>
 
 <br>
 
@@ -66,13 +76,25 @@ The `<article>` element specifies independent, self-contained content. An articl
 
 <br>
 
-.
+The navigation element (`<nav>`) specifies a set of navigation links. For example, the following code displays a very simply navigation bar.
 
 <br>
 
 ```html
-
+  <nav>
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+   <ul>
+  </nav>
 ```
+
+<br>
+
+<blockquote>
+ Note: The <code>&lt;nav&gt;</code> element should only be used for major block of navigation links and not all links within a document.
+</blockquote>
 
 <br>
 
@@ -80,26 +102,32 @@ The `<article>` element specifies independent, self-contained content. An articl
 
 <br>
 
-.
+The `<footer>` element defines a footer section in a document. Footers are usually placed at the bottom of websites and typically contain information like copyright information and back to top links. The following code is a very simple footer to demonstrate its use.
 
 <br>
 
 ```html
-
+ <footer>
+  <p>Copyright 2021. Blake Y</p>
+  <p><a href="mailto:contact@blakeyeboah.com">contact@blakeyeboah.com</a></p>
+ </footer>
 ```
 
 <br>
 
-### The `<main>` Element
+### The `<aside>` Element
 
 <br>
 
-.
+The `<aside>` element defines content aside from the content it is placed in. For example, the `<aside>` could be used for a sidebar since it doesn't directly relate to its surrounding content. The following code would be used to display a simple sidebar.
 
 <br>
 
 ```html
-
+ <aside>
+  <h3>Sidebar</h3>
+  <p>This is my sidebar</p>
+ </aside>
 ```
 
 <br>
@@ -108,12 +136,20 @@ The `<article>` element specifies independent, self-contained content. An articl
 
 <br>
 
-.
+The `<header>` element signifies a container for introductory content. For example, you could place a navigation bar within a header. Interestingly, you can have multiple headers within a document however, `<header>` can't be places within a `<footer>`, a `<address>` or another `<header>`. As an example, the following code displays a simple navigation bar within a header.
 
 <br>
 
 ```html
-
+ <header>
+  <nav>
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+   <ul>
+  </nav>
+ </header>
 ```
 
 <br>
