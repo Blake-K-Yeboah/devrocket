@@ -21,4 +21,24 @@ Before discussing platforms on which platform to host your applications, its imp
 
 <br>
 
-If you've built your very first static html website or even if its a complicated React project, theres an excellent platform that will suit your needs and the best part is that its entirely free.
+#### Netlify
+
+<br>
+
+If you've built your very first static html website or even if its a complicated React project, theres an excellent platform that will suit your needs and the best part is that its entirely free. The platform is called netlify and can be accessed through their [website](https://www.netlify.com/). Netlify has 2 options when hosting your website. These are using a git repository on a platform such as Github or uploading the folder/files directly. The platform is great for personal websites and hobby projects. Additionally, if you want to use more advanced features such as password-protected sites or background functions you can upgrade to their more advanced plans however, their starter plan is very genourous and should suffice for a lot of people.
+
+<br>
+
+#### Shared Hosting
+
+<br>
+
+Shared hosting is an excellent idea for people desiring more features and for small business websites. Businesses will often want features such as getting  custom domain and emails with their hosting service. Many hosting plans come with a free domain as well as emails which makes it a great option for small businesses. BlueHost is by far my favourite hosting platform with very affordable pricing, an easy to use interface and helpful support. You can get started with a shared hosting platform for as little as AU$3.90 per month by clicking the following link: [(Insert Link)](https://www.blakeyeboah.com). 
+
+<br>
+
+<blockquote>
+ Disclaimer: The link above is an affiliate link which means I receive a commision for any purchase that comes with no extra expense to yourself.
+</blockquote>
+
+<br>
