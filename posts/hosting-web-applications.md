@@ -9,6 +9,10 @@ tags: Hosting
 writtenDate: 2/04/21
 ---
 
+<img src="/post-images/clound-logo.jpg" alt="Cloud" >
+
+<br>
+
 ## Why Host Web Applications?
 
 <br>
@@ -17,19 +21,43 @@ Before discussing platforms on which platform to host your applications, its imp
 
 <br>
 
-### Hosting Front End Applications
+## Hosting Front End Applications
 
 <br>
 
-#### Netlify
+### Using Netlify
 
 <br>
 
-If you've built your very first static html website or even if its a complicated React project, theres an excellent platform that will suit your needs and the best part is that its entirely free. The platform is called netlify and can be accessed through their [website](https://www.netlify.com/). Netlify has 2 options when hosting your website. These are using a git repository on a platform such as Github or uploading the folder/files directly. The platform is great for personal websites and hobby projects. Additionally, if you want to use more advanced features such as password-protected sites or background functions you can upgrade to their more advanced plans however, their starter plan is very genourous and should suffice for a lot of people.
+If you've built your very first static html website or even if its a complicated React project, theres an excellent platform that will suit your needs and the best part is that its entirely free. The platform is called netlify and can be accessed through their [website](https://www.netlify.com/). Netlify has 2 options when hosting your website. These are using a git repository on a platform such as Github or uploading the folder/files directly. The platform is great for personal websites and hobby projects. Additionally, if you want to use more advanced features such as password-protected sites or background functions you can upgrade to their more advanced plans however, their starter plan is very genourous and should suffice for a lot of people. Here are steps to hosting your first application netlify.
 
 <br>
 
-#### Shared Hosting
+**1. Create an account using either your email or a service like Github**
+
+<br>
+
+<img src="/post-images/netlify-sign-up.png" alt="Netlify Sign Up Screen" >
+   
+<br><br>
+
+**2. Once logged in, click on the button that says new site from Git**
+
+<br>
+
+<img src="/post-images/new-site-from-git.jpg" alt="Netlify Sign Up Screen" >
+   
+<br><br>
+
+**3. Connect to your Git provider, select what repository to wish to deploy and click the deploy button!**
+   
+<br>
+
+You have now deployed your own website. If you wish to add a custom domain (you would have to own a domain ofcourse), you can go into your site settings and set it up.
+
+<br>
+
+### Shared Hosting
 
 <br>
 
@@ -41,4 +69,18 @@ Shared hosting is an excellent idea for people desiring more features and for sm
  Disclaimer: The link above is an affiliate link which means I receive a commision for any purchase that comes with no extra expense to yourself.
 </blockquote>
 
+<br><br>
+
+## Hosting Back End Applictions
+
 <br>
+
+Hosting back end applications is significantly more complicated than front end applications and varies based on the exact stack you use. Rather than providing instructions on how to host specific tech stacks on specific platforms, this article will just discuss various platforms that you could use. I suggest that after you finish reading this article, you do some research on how to host your specific tech stack on which ever platform you desire. 
+
+<br>
+
+There are 4 popular cloud platforms that are all great options to host your applications. These include, Amazon Web Services (AWS for short), Google Cloud Platform, Heroku and Microsoft Azure. All these platforms allow you to host full stack applications and have their own pros and cons. There are many articles on the internet that discuss the benefits and limitations of each platform as well as how to host your specific tech stack so I suggest you do more targetted research if you wish to deploy your application.
+
+<br>
+
+I hope you have learned something useful today. Dev Rocket has plenty of useful articles just like this on various topics from learning HTML to customizing your text editor. Thanks for reading and keep on coding!
