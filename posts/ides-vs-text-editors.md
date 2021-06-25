@@ -37,7 +37,7 @@ A text editor, in general, is a piece of software that allows the user to edit t
 
 <br>
 
-THe main difference between IDEs and Text Editors is that IDEs have significantly more features and functionality. This makes it sound like they are way better right? Well, it depends on exactly what you code. Having a software that has many features that you don't use is pointless and can even make you less productive. If you code a compiled language such as Java or C#, using an IDE is definitely the better choice since you will utilize many features. 
+THe main difference between IDEs and Text Editors is that IDEs have significantly more features and functionality. This makes it sound like they are way better right? Well, it depends on exactly what you code. Using software that has many features that you don't use is pointless and can even make you less productive. If you code a compiled language such as Java or C#, using an IDE is definitely the better choice since you will utilize many features. 
 
 <br>
 
