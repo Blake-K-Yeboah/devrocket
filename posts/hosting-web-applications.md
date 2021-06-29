@@ -4,7 +4,7 @@ description: "Learn how to host both front end and back end web applications on 
 image: hosting-web-applications.jpg
 author: Blake Yeboah
 authorImg: blake.png
-authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and loves what he does.
 tags: Hosting
 writtenDate: 2/04/21
 ---
@@ -50,7 +50,7 @@ If you've built your very first static html website or even if its a complicated
 <br><br>
 
 **3. Connect to your Git provider, select what repository to wish to deploy and click the deploy button!**
-   
+
 <br>
 
 You have now deployed your own website. If you wish to add a custom domain (you would have to own a domain ofcourse), you can go into your site settings and set it up.
@@ -61,7 +61,7 @@ You have now deployed your own website. If you wish to add a custom domain (you 
 
 <br>
 
-Shared hosting is an excellent idea for people desiring more features and for small business websites. Businesses will often want features such as getting  custom domain and emails with their hosting service. Many hosting plans come with a free domain as well as emails which makes it a great option for small businesses. BlueHost is by far my favourite hosting platform with very affordable pricing, an easy to use interface and helpful support. You can get started with a shared hosting platform for as little as AU$3.90 per month by clicking the following link: [(Insert Link)](https://www.blakeyeboah.com). 
+Shared hosting is an excellent idea for people desiring more features and for small business websites. Businesses will often want features such as getting custom domain and emails with their hosting service. Many hosting plans come with a free domain as well as emails which makes it a great option for small businesses. BlueHost is by far my favourite hosting platform with very affordable pricing, an easy to use interface and helpful support. You can get started with a shared hosting platform for as little as AU$3.90 per month by clicking the following link: [(Insert Link)](https://www.blakeyeboah.com).
 
 <br>
 
@@ -75,7 +75,7 @@ Shared hosting is an excellent idea for people desiring more features and for sm
 
 <br>
 
-Hosting back end applications is significantly more complicated than front end applications and varies based on the exact stack you use. Rather than providing instructions on how to host specific tech stacks on specific platforms, this article will just discuss various platforms that you could use. I suggest that after you finish reading this article, you do some research on how to host your specific tech stack on which ever platform you desire. 
+Hosting back end applications is significantly more complicated than front end applications and varies based on the exact stack you use. Rather than providing instructions on how to host specific tech stacks on specific platforms, this article will just discuss various platforms that you could use. I suggest that after you finish reading this article, you do some research on how to host your specific tech stack on which ever platform you desire.
 
 <br>
 

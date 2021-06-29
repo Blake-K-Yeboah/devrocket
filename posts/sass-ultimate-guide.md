@@ -4,7 +4,7 @@ description: "The one-stop guide to teach you everything you need to know about 
 image: sass-ultimate-guide.jpg
 author: Blake Yeboah
 authorImg: blake.png
-authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and loves what he does..
 tags: Sass SCSS Styling
 writtenDate: 15/03/21
 ---
@@ -36,17 +36,17 @@ Sass has two distinctly different syntaxes with their own pros and cons; these a
 <br>
 
 ```scss
- .navigation  {
-    height: 40px;
-    width: 100vw;
-    background: #f1f1f1;
+.navigation {
+   height: 40px;
+   width: 100vw;
+   background: #f1f1f1;
 
-    .brand {
-        color: #000;
-        font-size: 2rem;
-        margin-left:10vw;
-    }
- }
+   .brand {
+      color: #000;
+      font-size: 2rem;
+      margin-left: 10vw;
+   }
+}
 ```
 
 <br>
@@ -59,10 +59,10 @@ Looks very similar to CSS however Sass has many additional, useful features.
 
 <br>
 
-- Variables
-- Partials
-- Mixins
-- Nesting and more
+-  Variables
+-  Partials
+-  Mixins
+-  Nesting and more
 
 <br>
 
@@ -79,8 +79,8 @@ Variables store values under the variable name and allow it to be reused across 
 <br>
 
 ```scss
- // Variable
- $mainColor: #2583e8;
+// Variable
+$mainColor: #2583e8;
 ```
 
 <br>
@@ -96,12 +96,12 @@ The variable's value can equal any value CSS value; from hexadecimal values to p
 <br>
 
 ```scss
- // Variable
- $mainColor: #2583e8;
+// Variable
+$mainColor: #2583e8;
 
- h1 {
-     color: $mainColor;
- }
+h1 {
+   color: $mainColor;
+}
 ```
 
 <br>
@@ -116,7 +116,7 @@ The variable's value can equal any value CSS value; from hexadecimal values to p
 
 <br>
 
-Partials are separate Sass files that can be imported that allow you to easily separate your various styles. To make a file a partial, it must start with an underscore ( _ ). The generic form of a partial is:
+Partials are separate Sass files that can be imported that allow you to easily separate your various styles. To make a file a partial, it must start with an underscore ( \_ ). The generic form of a partial is:
 
 <br>
 
@@ -129,7 +129,7 @@ To import the partial into your main stylesheet, the @import statement can be us
 <br>
 
 ```scss
- @import 'buttons';
+@import "buttons";
 ```
 
 <br>
@@ -149,9 +149,9 @@ Mixins allow you to define a set of styles that can be re-used throughout the sa
 <br>
 
 ```scss
- @mixin slow-transition {
-     transition: 2s ease-in-out;
- }
+@mixin slow-transition {
+   transition: 2s ease-in-out;
+}
 ```
 
 <br>
@@ -161,17 +161,17 @@ This mixin can then be used anywhere in the stylesheet using the `@include` stat
 <br>
 
 ```scss
- @mixin slow-transition {
-    transition: 2s ease-in-out;
- }
+@mixin slow-transition {
+   transition: 2s ease-in-out;
+}
 
- div {
-    @include slow-transition;
- }
+div {
+   @include slow-transition;
+}
 
- .another-element {
-     @include slow-transition;
- }
+.another-element {
+   @include slow-transition;
+}
 ```
 
 <br>
@@ -181,9 +181,9 @@ Additionally, you can add arguments to your mixins which makes them extremely us
 <br>
 
 ```scss
- @mixin slow-transition($property) {
-    transition: $property 2s ease-in-out;
- }
+@mixin slow-transition($property) {
+   transition: $property 2s ease-in-out;
+}
 ```
 
 <br>
@@ -193,13 +193,13 @@ And then when including the mixin, you simply pass in the argument.
 <br>
 
 ```scss
- @mixin slow-transition($property) {
-    transition: $property 2s ease-in-out;
- }
+@mixin slow-transition($property) {
+   transition: $property 2s ease-in-out;
+}
 
- div {
-    @include slow-transition(background);
- }
+div {
+   @include slow-transition(background);
+}
 ```
 
 <br>
@@ -223,26 +223,26 @@ Sass allows you to nest css selectors in a way that gives your styling visual hi
 <br>
 
 ```css
- nav {
-     height:40px;
-     width:100vw;
-     background:#f1f1f1;
- }
+nav {
+   height: 40px;
+   width: 100vw;
+   background: #f1f1f1;
+}
 
- nav ul {
-     display:flex;
-     list-style:none;
-     margin-left: 10vw;
- }
+nav ul {
+   display: flex;
+   list-style: none;
+   margin-left: 10vw;
+}
 
- nav li {
-     margin: 0 10px;
- }
+nav li {
+   margin: 0 10px;
+}
 
- nav a {
-     color: darkgrey;
-     text-decoration:none;
- }
+nav a {
+   color: darkgrey;
+   text-decoration: none;
+}
 ```
 
 <br>
@@ -252,27 +252,26 @@ In SCSS, this can be written as the code below.
 <br>
 
 ```scss
- nav {
-     height:40px;
-     width:100vw;
-     background:#f1f1f1;
+nav {
+   height: 40px;
+   width: 100vw;
+   background: #f1f1f1;
 
-    ul {
-        display:flex;
-        list-style:none;
-        margin-left: 10vw;
-    }
+   ul {
+      display: flex;
+      list-style: none;
+      margin-left: 10vw;
+   }
 
-    li {
-        margin: 0 10px;
-    }
+   li {
+      margin: 0 10px;
+   }
 
-    a {
-        color: darkgrey;
-        text-decoration:none;
-    }
-
- }
+   a {
+      color: darkgrey;
+      text-decoration: none;
+   }
+}
 ```
 
 <br>

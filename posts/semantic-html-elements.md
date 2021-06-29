@@ -4,7 +4,7 @@ description: "Learn how to use the various semantic HTML elements that will impr
 image: semantic-html-elements.jpg
 author: Blake Yeboah
 authorImg: blake.png
-authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and loves what he does.
 tags: HTML Intermediate
 writtenDate: 1/04/21
 ---
@@ -25,12 +25,12 @@ When building front end websites with HTMl, you will often find yourself using d
 
 <br>
 
-- `<article>`
-- `<section>`
-- `<nav>`
-- `<footer>`
-- `<aside>`
-- `<header>`
+-  `<article>`
+-  `<section>`
+-  `<nav>`
+-  `<footer>`
+-  `<aside>`
+-  `<header>`
 
 <br>
 
@@ -43,7 +43,7 @@ The `<article>` element specifies independent, self-contained content. An articl
 <br>
 
 ```html
- <article>Independent content that should be readable on its own</article>
+<article>Independent content that should be readable on its own</article>
 ```
 
 <br>
@@ -57,11 +57,11 @@ As the name suggests, the `<section>` element defines a section in a document. T
 <br>
 
 ```html
- <section>
-  <h1>Contact Us</h1>
-  <p>Phone: 0000-000-000</p>
-  <p>Email: hello@ourcompany.com</p>
- </section>
+<section>
+   <h1>Contact Us</h1>
+   <p>Phone: 0000-000-000</p>
+   <p>Email: hello@ourcompany.com</p>
+</section>
 ```
 
 <br>
@@ -107,10 +107,10 @@ The `<footer>` element defines a footer section in a document. Footers are usual
 <br>
 
 ```html
- <footer>
-  <p>Copyright 2021. Blake Y</p>
-  <p><a href="mailto:contact@blakeyeboah.com">contact@blakeyeboah.com</a></p>
- </footer>
+<footer>
+   <p>Copyright 2021. Blake Y</p>
+   <p><a href="mailto:contact@blakeyeboah.com">contact@blakeyeboah.com</a></p>
+</footer>
 ```
 
 <br>
@@ -124,10 +124,10 @@ The `<aside>` element defines content aside from the content it is placed in. Fo
 <br>
 
 ```html
- <aside>
-  <h3>Sidebar</h3>
-  <p>This is my sidebar</p>
- </aside>
+<aside>
+   <h3>Sidebar</h3>
+   <p>This is my sidebar</p>
+</aside>
 ```
 
 <br>

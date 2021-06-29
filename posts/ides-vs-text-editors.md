@@ -4,7 +4,7 @@ description: "Understand the difference between integreted development environme
 image: ides-vs-text-editors.jpg
 author: Blake Yeboah
 authorImg: blake.png
-authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and loves what he does.
 tags: IDE Editors
 writtenDate: 6/04/21
 ---
@@ -21,7 +21,7 @@ Before discussing the difference between integreted development environments (ID
 
 <br>
 
-An integrated development environment (IDE) is software for building applications that combines common developer tools into a single graphical user interface (GUI). Some examples of IDEs, include IntelliJ, Eclipse and Microsoft's Visual Studio. 
+An integrated development environment (IDE) is software for building applications that combines common developer tools into a single graphical user interface (GUI). Some examples of IDEs, include IntelliJ, Eclipse and Microsoft's Visual Studio.
 
 <br>
 
@@ -37,7 +37,7 @@ A text editor, in general, is a piece of software that allows the user to edit t
 
 <br>
 
-THe main difference between IDEs and Text Editors is that IDEs have significantly more features and functionality. This makes it sound like they are way better right? Well, it depends on exactly what you code. Using software that has many features that you don't use is pointless and can even make you less productive. If you code a compiled language such as Java or C#, using an IDE is definitely the better choice since you will utilize many features. 
+THe main difference between IDEs and Text Editors is that IDEs have significantly more features and functionality. This makes it sound like they are way better right? Well, it depends on exactly what you code. Using software that has many features that you don't use is pointless and can even make you less productive. If you code a compiled language such as Java or C#, using an IDE is definitely the better choice since you will utilize many features.
 
 <br>
 

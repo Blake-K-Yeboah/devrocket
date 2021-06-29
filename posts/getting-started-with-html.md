@@ -4,7 +4,7 @@ description: "Get started with html and learn the fundamentals to start building
 image: getting-started-with-html.jpg
 author: Blake Yeboah
 authorImg: blake.png
-authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and loves what he does.
 tags: HTML Beginner
 writtenDate: 09/03/21
 ---
@@ -27,11 +27,11 @@ While HTML can be written in a program as basic as notepad, I recommend using a 
 
 <br>
 
-- **Visual Studio Code**
-- Sublime Text
-- Atom
-- Notepad++
-  
+-  **Visual Studio Code**
+-  Sublime Text
+-  Atom
+-  Notepad++
+
 <br>
 
 Visual Studio Code is bolded as its the one I would recommend.
@@ -48,10 +48,10 @@ Obviously, you will need a web browser. In fact, you're probably using a web bro
 
 <br>
 
-- Firefox
-- Safari (For Mac)
-- Opera
-- Brave
+-  Firefox
+-  Safari (For Mac)
+-  Opera
+-  Brave
 
 <br>
 
@@ -80,7 +80,7 @@ Inside of a HTML document, there are various elements. For example, there might 
 <br>
 
 ```html
- <p class="text">Here is my paragraph</p>
+<p class="text">Here is my paragraph</p>
 ```
 
 <br>
@@ -118,15 +118,15 @@ The basic HTML document structure looks like this:
 <br>
 
 ```html
- <!DOCTYPE html>
- <html>
+<!DOCTYPE html>
+<html>
    <head>
-    <!-- Browser related info not shown to user -->
+      <!-- Browser related info not shown to user -->
    </head>
    <body>
-    <!-- Content of Website -->
+      <!-- Content of Website -->
    </body>
- </html>
+</html>
 ```
 
 <br>
@@ -168,7 +168,7 @@ The title element is an element found is every website. It is defined by the `<t
 <br>
 
 ```html
- <title>Your Title Goes Here</title>
+<title>Your Title Goes Here</title>
 ```
 
 <br>
@@ -177,8 +177,8 @@ Another tag used in every website is the meta tag. It provides meta data of vari
 
 <br>
 
-- `<meta charset="UTF-8">` Specifies the character encoding for the HTML document
-- `<meta name="viewport" content="width=device-width,initial-scale=1.0">` Specifies the viewport; used for making a website responsive
+-  `<meta charset="UTF-8">` Specifies the character encoding for the HTML document
+-  `<meta name="viewport" content="width=device-width,initial-scale=1.0">` Specifies the viewport; used for making a website responsive
 
 <br>
 
@@ -209,8 +209,10 @@ The tag that represents paragraphs in HTML is the `<p>` tag. You simply place wh
 <br>
 
 ```html
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
- Cras lobortis magna eu vehicula pellentesque.</P>
+<p>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis magna
+   eu vehicula pellentesque.
+</p>
 ```
 
 <br>
@@ -230,7 +232,7 @@ To add a hyperlink to your website, you can use the `<a>` tag. In between the op
 <br>
 
 ```html
- <a href="https://www.google.com/">Google</a>
+<a href="https://www.google.com/">Google</a>
 ```
 
 <br>
@@ -250,21 +252,21 @@ There are two kinds of lists you can add to your website. These include unordere
 <br>
 
 ```html
- <ul>
-  <li>Unordered List Item 1</li>
-  <li>Unordered List Item 2</li>
-  <li>Unordered List Item 3</li>
- </ul>
+<ul>
+   <li>Unordered List Item 1</li>
+   <li>Unordered List Item 2</li>
+   <li>Unordered List Item 3</li>
+</ul>
 ```
 
 <br>
 
 ```html
- <ol>
-  <li>Ordered List Item 1</li>
-  <li>Ordered List Item 2</li>
-  <li>Ordered List Item 3</li>
- </ol>
+<ol>
+   <li>Ordered List Item 1</li>
+   <li>Ordered List Item 2</li>
+   <li>Ordered List Item 3</li>
+</ol>
 ```
 
 <br>
@@ -282,7 +284,7 @@ The `<img>` tag is used to put images on web pages. Firstly, to specify the exac
 <br>
 
 ```html
- <img src="images/car.jpg" alt="Car" >
+<img src="images/car.jpg" alt="Car" />
 ```
 
 <br>
@@ -301,12 +303,12 @@ There are 6 tags used to display headings that range in size. These include:
 
 <br>
 
-- `<h1></h1>` - The largest heading
-- `<h2></h2>`
-- `<h3></h3>`
-- `<h4></h4>`
-- `<h5></h5>`
-- `<h6></h6>` - The smallest heading
+-  `<h1></h1>` - The largest heading
+-  `<h2></h2>`
+-  `<h3></h3>`
+-  `<h4></h4>`
+-  `<h5></h5>`
+-  `<h6></h6>` - The smallest heading
 
 <br>
 
@@ -315,7 +317,7 @@ To provide an example, the code below displays a heading 1 (`<h1>`) with the tex
 <br>
 
 ```html
- <h1>Large Heading</h1>
+<h1>Large Heading</h1>
 ```
 
 <br>

@@ -4,7 +4,7 @@ description: "Learn how to customize visual studio code make it suit you perfect
 image: customizing-vs-code.jpg
 author: Blake Yeboah
 authorImg: blake.png
-authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and love what I do.
+authorBio: Blake is a full stack web developer who enjoys programming web applications. He has developed a strong passion for the software development industry over the years and loves what he does.
 tags: VSCode Customization
 writtenDate: 16/03/21
 ---
@@ -25,14 +25,13 @@ This article will talk about customizing Visual Studio Code including installing
 
 <br>
 
-Changing your color theme is very simple in Visual Studio Code. 
+Changing your color theme is very simple in Visual Studio Code.
 
 <br>
 
 1. Hit 'CTRL' + 'SHIFT' + 'P'
-   
 2. You should then see whats called the command palette. It looks like this:
-   
+
 <br>
 
 <img src="/post-images/vs-code-command-palette.jpg" alt="Visual Studio Code's Command Palette" >
@@ -107,7 +106,7 @@ Installing extensions will significantly boost your productivity as a developer 
 
 <br><br>
 
-2. You can then click on the search bar in the top left of the screen and search for an extension. This will then bring up the extension's page.  For example, the CSS Peek extension page looks like this:
+2. You can then click on the search bar in the top left of the screen and search for an extension. This will then bring up the extension's page. For example, the CSS Peek extension page looks like this:
 
 <br>
 
