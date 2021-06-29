@@ -1,6 +1,6 @@
 ---
 title: Customizing Visual Studio Code
-description: "Learn how to customize visual studio code make it suit you perfectly."
+description: "Learn how to customize visual studio code and make it suit you perfectly."
 image: customizing-vs-code.jpg
 author: Blake Yeboah
 authorImg: blake.png
@@ -94,11 +94,11 @@ I currently use a theme called Aurora X and I find it clean, nice and great to u
 
 <br>
 
-Installing extensions will significantly boost your productivity as a developer and allow you to do code much easier. So how do you install an extension?
+Installing extensions will significantly boost your productivity as a developer and allow you to code much easier. So how do you install an extension?
 
 <br>
 
-1. First, open the extensions tag by clicking on the extensions icon in the sidebar. This will open up a tab that looks like this:
+1. First, open the extensions tag by clicking on the extensions icon in the sidebar or by pressing CTRL+SHIFT+X. This will open up a tab that looks like this:
 
 <br>
 

@@ -75,7 +75,7 @@ Create a new folder on your desktop or wherever you want to store your website f
 
 <br>
 
-Inside of a HTML document, there are various elements. For example, there might be a paragraph element which would show a paragraph on screen. The following code is an example of a paragraph element. We will be dissecting it to understand what each individual part means.
+Inside of a HTML document, there are various elements present. For example, there might be a paragraph element which would show a paragraph on screen. The following code is an example of a paragraph element. We will be dissecting it to understand what each individual part means.
 
 <br>
 
@@ -132,7 +132,7 @@ The basic HTML document structure looks like this:
 <br>
 
 <blockquote>
-    Note: The  '&lt;!-- --&gt;'  is used to write comments in HTML.
+    Note: The  '&lt;!-- --&gt;'  is used to write comments in HTML which means it isn't shown to the user on the web page.
 </blockquote>
 
 <br>
