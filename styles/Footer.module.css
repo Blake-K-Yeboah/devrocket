@@ -88,6 +88,7 @@
 
 .linkList {
     list-style:none;
+    text-align:right;
 }
 
 .linkList li {
